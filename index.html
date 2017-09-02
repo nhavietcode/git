@@ -1,39 +1,178 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Website Giới Thiệu Cá Nhân</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/css/style.css">
-		<link rel="stylesheet" href="/css/reset.css">
+﻿<!doctype html>
+<html lang="en"><head>
+
+	<meta charset="utf-8">
+    <meta name="description" content="Huỳnh Hữu Nhân Landing Page" />
+    <meta name="author" content="Huỳnh Hữu Nhân">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Huỳnh Hữu Nhân</title>
+    
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="img/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png"/>
+    
+    <!-- FONTS -->
+    <link rel="stylesheet" type="text/css" href="css/fonts/hk-grotesk/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Awesome CSS -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    
+    
+    <!-- CUSTOM FONT FROM GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400" rel="stylesheet">
+    
+    <!-- CUSTOMIZATONS -->
+    <style>
+    	
+		h1 { font-family: 'Roboto Mono', monospace; font-weight: 400; }
+		
+		body { font-family: 'Roboto Mono', monospace; }
+		
+		
+    </style>
+
+
 </head>
-<body>
-	<!-- Navication -->
-	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">HUỲNH NHÂN</a>
-	    </div>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="navbar">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">PORTFOLIO</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">CONTACT</a></li>
+<body class="is-text-align-center is-masked-dark is-text-light">
 
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
+	
+    <!-- BG IMAGE / VIDEO -->
+    <div class="media" style="background-image:url(img/coder.jpg)"></div>
+	
+    
+    <!-- CONTENT-WRAP -->
+    <div class="content-wrap">
+    
+    
+        <!-- CONTENT -->
+        <div class="content">
+
+            <!-- TITLE -->
+            <h1>
+                Xin chào, tôi là Nhân
+                <br>
+                
+                <!-- TEXTS TO BE TYPED -->
+                <span id="typed"></span>
+                <div id="typed-strings">
+                    <p><span class="text yellow">Sáng tạo</span></p>
+                    <p><span class="text grey">Đơn giản</span></p>
+                    <p><span class="text peach">Tinh tế</span></p>
+                    <p><span class="text aqua">Dễ sử dụng</span></p>
+                    <p><span class="text coral">là phong cách của tôi</span></p>
+                </div>
+                <!-- TEXTS TO BE TYPED -->
+                
+                <br>Các project tôi làm.
+            </h1>
+            <!-- TITLE -->
+            
+            <hr/>
+            <!-- DESCRIPTION -->
+            <div class="noidung-web">
+             <div class="container">
+				<div class="row">
+					<div class="card-deck">
+					  <div class="card cachkhoang dobong">
+					    <img class="card-img-top img-fluid" src="img/Web1.jpg" alt="Card image cap">
+					    <div class="card-block">
+					      <h4 class="card-title"><a href="http://www.huynhnhan.tech/bootstrap/Web1" target="_blank">EXAMPLE<i class="ion-ios-navigate"></i></a></h4>
+					      <p class="card-text">Web này sử dụng navbar, col-sm-12, alert,...</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">7/13/2017 12:07 PM</small>
+					    </div>
+					  </div>
+					  <div class="card cachkhoang dobong">
+					    <img class="card-img-top img-fluid" src="img/Web2.jpg" alt="Card image cap">
+					    <div class="card-block">
+					      <h4 class="card-title"><a href="http://www.huynhnhan.tech/bootstrap/Web2" target="_blank">ALBUM<i class="ion-ios-navigate"></i></a></h4>
+					      <p class="card-text">Web này sử dụng navbar-collap, jumbotron, card-deck,...</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">7/15/2017 9:47 PM</small>
+					    </div>
+					  </div>
+					  <div class="card cachkhoang dobong">
+					    <img class="card-img-top img-fluid" src="img/Web3.jpg" alt="Card image cap">
+					    <div class="card-block">
+					      <h4 class="card-title"><a href="http://www.huynhnhan.tech/bootstrap/Web3" target="_blank">CAROUSEL<i class="ion-ios-navigate"></i></a></h4>
+					      <p class="card-text">Web này sử dụng navbar-toggle, carousel-slide, col-sm-4,...</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">7/18/2017 7:06 PM</small>
+					    </div>
+					  </div>
+				</div> 
+             	</div> <!-- /.row -->
+             	<hr/>
+				<div class="row">
+					<div class="card-deck">
+					  <div class="card cachkhoang dobong">
+					    <img class="card-img-top img-fluid" src="img/Web4.jpg" alt="Card image cap">
+					    <div class="card-block">
+					      <h4 class="card-title"><a href="http://www.huynhnhan.tech/bootstrap/Web4" target="_blank">OFF-CANVAS<i class="ion-ios-navigate"></i></a></h4>
+					      <p class="card-text">Web sử dụng canvas, fixed menu, col-sm-9, col-xs-12...</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">7/20/2017 10:24 PM</small>
+					    </div>
+					  </div>
+					  <div class="card cachkhoang dobong">
+					    <img class="card-img-top img-fluid" src="img/Web5.jpg" alt="Card image cap">
+					    <div class="card-block">
+					      <h4 class="card-title"><a href="http://www.huynhnhan.tech/bootstrap/Web5" target="_blank">SHOP ONLINE<i class="ion-ios-navigate"></i></a></h4>
+					      <p class="card-text">Web sử dụng jumbotron, navbar-inverse,col-sm-4, form...</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">7/20/2017 19:50 AM</small>
+					    </div>
+					  </div>
+					  <div class="card cachkhoang dobong">
+					    <img class="card-img-top img-fluid" src="img/Web6.jpg" alt="Card image cap">
+					    <div class="card-block">
+					      <h4 class="card-title"><a href="http://www.huynhnhan.tech/bootstrap/Web6" target="_blank">Company<i class="ion-ios-navigate"></i></a></h4>
+					      <p class="card-text">Web sử dụng navbar, slideanim, col-sm4...</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">07/26/2017 10:50 PM</small>
+					    </div>
+					  </div>
+				</div> 
+             	</div> <!-- /.row -->             	
+             </div><!-- /.container -->
+
+             </div> <!-- /.noidung-web -->
+             <hr/>
+            <p>
+              Nếu bạn muốn code cùng tôi hoặc có ý định giao lưu học hỏi <br/> hãy liên hệ với tôi qua <a class="link-2 yellow" href="http://www.facebook.com/nhavietcode" target="_blank">facebook</a>, hoặc email
+              <a class="link-2 yellow" href="mailto:nhavietcode@gmail.com" target="_blank">nhavietcode@gmail.com</a>.
+            </p>
+            <!-- DESCRIPTION -->
+            
+        </div>
+        <!-- CONTENT -->
+
+
+    </div>
+	<!-- CONTENT-WRAP -->
+    <!-- BACK TO TOP -->
+	<a href="#" class="btn btn-primary lentren" title="Click to return on the top page"><span class="ion-chevron-up"></span></a>
+	        
+    <!-- SCRIPTS -->
+	<script src="js/main.js"></script>
+	<script src="js/backtotop.js"></script>	
+    
+    
 </body>
 </html>
